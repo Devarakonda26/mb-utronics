@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MB Utronics | Engineering Solutions &amp; Project Development</title>
+  <meta name="description" content="Specializing in VLSI, Embedded Systems, IoT and PCB Design, MB Utronics delivers innovative engineering solutions, projects and technical guidance.">
+  <meta name="theme-color" content="#080D15">
+  <!-- Once you have a domain, add: <link rel="canonical" href="https://YOUR-DOMAIN/"> (see README) -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MB Utronics">
+  <meta property="og:title" content="MB Utronics | Engineering Solutions &amp; Project Development">
+  <meta property="og:description" content="Specializing in VLSI, Embedded Systems, IoT and PCB Design, MB Utronics delivers innovative engineering solutions, projects and technical guidance.">
+  <meta property="og:image" content="assets/images/mblogo.jpeg">
+  <meta property="og:image:alt" content="MB Utronics logo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MB Utronics | Engineering Solutions &amp; Project Development">
+  <meta name="twitter:description" content="Specializing in VLSI, Embedded Systems, IoT and PCB Design, MB Utronics delivers innovative engineering solutions, projects and technical guidance.">
+  <meta name="twitter:image" content="assets/images/mblogo.jpeg">
+
+  <link rel="icon" type="image/jpeg" href="assets/images/mblogo.jpeg">
+  <link rel="apple-touch-icon" href="assets/images/mblogo.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MB Utronics",
+    "slogan": "Engineering Solutions",
+    "description": "MB Utronics is an emerging engineering solutions company focused on VLSI Design, Embedded Systems, Internet of Things (IoT), and PCB Design.",
+    "email": "mbutronics3@gmail.com",
+    "telephone": ["+91 76719 22526", "+91 79814 90794", "+91 91217 13384"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <!-- Icon sprite: one consistent stroke style across the site -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></symbol>
+      <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 9h6v6H9zM12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+      <symbol id="i-board" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="7.5" cy="9.5" r="1"/><path d="M7 15h5M14 9.5h4M14 15h4"/></symbol>
+      <symbol id="i-raspi" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="1.5"/><rect x="6" y="9" width="5" height="6"/><path d="M14 9h4M14 12h4M14 15h4"/></symbol>
+      <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/></symbol>
+      <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/><circle cx="4.5" cy="5.5" r="1.8"/><circle cx="19.5" cy="5.5" r="1.8"/><circle cx="4.5" cy="18.5" r="1.8"/><circle cx="19.5" cy="18.5" r="1.8"/><path d="M6 7l4.2 3.6M18 7l-4.2 3.6M6 17l4.2-3.6M18 17l-4.2-3.6"/></symbol>
+      <symbol id="i-pcb" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="7.5" cy="7.5" r="1.2"/><circle cx="16.5" cy="16.5" r="1.2"/><path d="M7.5 8.7V13h5v3.5h2.8M12.5 13h4V7.5"/></symbol>
+      <symbol id="i-infinity" viewBox="0 0 24 24"><path d="M7 8a4 4 0 1 0 0 8c4 0 6-8 10-8a4 4 0 1 1 0 8c-4 0-6-8-10-8z"/><path d="M5 12h4M17 12h2M18 11v2"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
+      <symbol id="i-braces" viewBox="0 0 24 24"><path d="M8 4c-2 0-3 1-3 3v2c0 1.5-1 3-2 3 1 0 2 1.5 2 3v2c0 2 1 3 3 3M16 4c2 0 3 1 3 3v2c0 1.5 1 3 2 3-1 0-2 1.5-2 3v2c0 2-1 3-3 3"/></symbol>
+      <symbol id="i-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></symbol>
+      <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 16h4V8h5v8h4V8h3v8h4"/></symbol>
+      <symbol id="i-gate" viewBox="0 0 24 24"><path d="M6 5h5a7 7 0 0 1 0 14H6zM2 9h4M2 15h4M18 12h4"/></symbol>
+      <symbol id="i-scope" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M6 12l3-4 3 5 3-3 3 2M8 20h8M12 16v4"/></symbol>
+      <symbol id="i-branch" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="9" r="2"/><path d="M6 7v10M18 11c0 4-6 3-12 6"/></symbol>
+      <symbol id="i-window" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></symbol>
+      <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 6.5a4 4 0 0 0-5 5L3 18l3 3 6.5-6.5a4 4 0 0 0 5-5l-2.5 2.5-2.5-.5-.5-2.5z"/></symbol>
+      <symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 3v5M15 3v5M6 8h12v4a6 6 0 0 1-12 0zM12 18v3"/></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l5 5v13H6zM14 3v5h5M9 13h7M9 17h7"/></symbol>
+      <symbol id="i-blocks" viewBox="0 0 24 24"><rect x="3" y="4" width="6" height="5" rx="1"/><rect x="15" y="4" width="6" height="5" rx="1"/><rect x="9" y="15" width="6" height="5" rx="1"/><path d="M9 6.5h6M6 9v3h12V9M12 12v3"/></symbol>
+      <symbol id="i-circuit" viewBox="0 0 24 24"><path d="M3 12h4M7 8v8M11 8v8M11 12h3l1.5-3 2 6 1.5-3H21"/></symbol>
+      <symbol id="i-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/><path d="M19 20c0 1.2-1.5 2-4 2"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+      <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5zM3 12.5l9 5 9-5M3 17l9 5 9-5"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></symbol>
+      <symbol id="i-factory" viewBox="0 0 24 24"><path d="M3 21V9l6 4V9l6 4V5h3v16zM7 17h2M12 17h2"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="MB Utronics, back to top">
+        <img class="brand__logo" src="assets/images/mblogo.jpeg" alt="MB Utronics logo" width="44" height="44">
+        <span class="brand__text">
+          <span class="brand__name">MB Utronics</span>
+          <span class="brand__tag">Engineering Solutions</span>
+        </span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home" data-nav>Home</a></li>
+        <li><a href="#about" data-nav>About</a></li>
+        <li><a href="#domains" data-nav>Core Domains</a></li>
+        <li><a href="#services" data-nav>Services</a></li>
+        <li><a href="#projects" data-nav>Projects</a></li>
+        <li><a href="#technologies" data-nav>Technologies</a></li>
+        <li><a href="#contact" data-nav>Contact</a></li>
+        <li class="nav__cta-mobile"><a class="btn btn--primary" href="#contact">Contact Us</a></li>
+      </ul>
+
+      <a class="btn btn--primary nav__cta" href="#contact">Contact Us</a>
+
+      <button class="nav__toggle" type="button" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span class="nav__bar"></span><span class="nav__bar"></span><span class="nav__bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">Emerging Engineering Solutions Company</p>
+          <h1 id="hero-title">Engineering Tomorrow with <span class="grad">VLSI, Embedded Systems, IoT</span> &amp; <span class="grad">PCB Design</span></h1>
+          <p class="lead">MB Utronics is dedicated to developing innovative projects, practical embedded solutions, intelligent IoT applications, VLSI design concepts, and professional PCB design for students, researchers, startups, and industries.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">Explore Projects <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost" href="#contact">Contact Us</a>
+          </div>
+          <dl class="stats">
+            <div class="stat"><dt>Core Domains</dt><dd><span class="stat__num" data-count="4">4</span></dd></div>
+            <div class="stat"><dt>Project Types</dt><dd><span class="stat__num" data-count="50" data-suffix="+">50+</span></dd></div>
+            <div class="stat"><dt>Technologies</dt><dd><span class="stat__num" data-count="16" data-suffix="+">16+</span></dd></div>
+          </dl>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <svg class="chip-art" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" focusable="false">
+            <defs>
+              <linearGradient id="gChip" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#168BFF"/><stop offset="1" stop-color="#00D4FF"/>
+              </linearGradient>
+              <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#00D4FF" stop-opacity=".22"/><stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="260" cy="260" r="250" fill="url(#gGlow)"/>
+            <g class="grid-lines" stroke="#699DC8" stroke-opacity=".12" stroke-width="1">
+              <path d="M20 80h480M20 160h480M20 240h480M20 320h480M20 400h480M20 480h480"/>
+              <path d="M80 20v480M160 20v480M240 20v480M320 20v480M400 20v480M480 20v480"/>
+            </g>
+            <!-- traces -->
+            <g class="traces" fill="none" stroke="#168BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M200 215H120L80 175H30"/>
+              <path d="M200 260H60"/>
+              <path d="M200 305H120L80 345H30"/>
+              <path d="M320 215h80l40-40h50"/>
+              <path d="M320 260h140"/>
+              <path d="M320 305h80l40 40h50"/>
+              <path d="M225 200v-80l-35-35V30"/>
+              <path d="M295 200v-60l35-35V30"/>
+              <path d="M225 320v80l-35 35v55"/>
+              <path d="M295 320v60l35 35v65"/>
+            </g>
+            <g class="traces-flow" fill="none" stroke="#00D4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 54">
+              <path d="M200 215H120L80 175H30"/>
+              <path d="M320 260h140"/>
+              <path d="M295 320v60l35 35v65"/>
+              <path d="M225 200v-80l-35-35V30"/>
+            </g>
+            <g class="traces-gold" fill="none" stroke="#FFD447" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M200 305H120L80 345H30"/>
+              <path d="M320 215h80l40-40h50" stroke-opacity=".85"/>
+            </g>
+            <!-- nodes -->
+            <g fill="#080D15" stroke="#00D4FF" stroke-width="2">
+              <circle cx="30" cy="175" r="6"/><circle cx="60" cy="260" r="6"/><circle cx="460" cy="260" r="6"/>
+              <circle cx="190" cy="30" r="6"/><circle cx="330" cy="30" r="6"/><circle cx="190" cy="490" r="6"/><circle cx="330" cy="480" r="6"/>
+            </g>
+            <g fill="#080D15" stroke="#FFD447" stroke-width="2">
+              <circle cx="30" cy="345" r="6"/><circle cx="490" cy="175" r="6"/><circle cx="490" cy="345" r="6"/>
+            </g>
+            <!-- chip -->
+            <g class="chip-body">
+              <rect x="200" y="200" width="120" height="120" rx="10" fill="#0D1521" stroke="url(#gChip)" stroke-width="2.5"/>
+              <rect x="218" y="218" width="84" height="84" rx="6" fill="#111C2B" stroke="#699DC8" stroke-opacity=".35"/>
+              <g stroke="#00D4FF" stroke-width="2" stroke-linecap="round">
+                <path d="M206 215h-6M206 238h-6M206 260h-6M206 282h-6M206 305h-6"/>
+                <path d="M314 215h6M314 238h6M314 260h6M314 282h6M314 305h6"/>
+                <path d="M225 206v-6M243 206v-6M260 206v-6M277 206v-6M295 206v-6"/>
+                <path d="M225 314v6M243 314v6M260 314v6M277 314v6M295 314v6"/>
+              </g>
+              <text x="260" y="268" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700" font-size="22" fill="#F4F8FF">MB</text>
+              <circle cx="230" cy="230" r="3" fill="#FFD447"/>
+            </g>
+          </svg>
+          <span class="float-tag float-tag--iot">IoT</span>
+          <span class="float-tag float-tag--pcb">PCB</span>
+          <span class="float-tag float-tag--vlsi">VLSI</span>
+          <span class="float-tag float-tag--emb">Embedded</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section--alt about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__main reveal">
+          <p class="eyebrow">Who We Are</p>
+          <h2 id="about-title">Engineering Ideas Into Real-World Solutions</h2>
+          <p class="lead">MB Utronics is an emerging engineering solutions company focused on VLSI Design, Embedded Systems, Internet of Things (IoT), and PCB Design.</p>
+          <div class="about__rule" aria-hidden="true"><span></span><span></span><span></span></div>
+          <svg class="about__art" viewBox="0 0 420 120" aria-hidden="true" focusable="false">
+            <g fill="none" stroke="#168BFF" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M0 30h90l20 20h80l20-20h210"/>
+              <path d="M0 60h60l20 20h130l20-20h190"/>
+              <path d="M0 90h140l20 20h260"/>
+            </g>
+            <g fill="#080D15" stroke="#00D4FF" stroke-width="1.5"><circle cx="110" cy="50" r="4"/><circle cx="210" cy="50" r="4"/><circle cx="80" cy="80" r="4"/></g>
+            <circle cx="160" cy="110" r="4" fill="#080D15" stroke="#FFD447" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="about__cards">
+          <article class="card card--accent reveal">
+            <span class="card__kicker">Mission</span>
+            <p>Our mission is to bridge the gap between engineering education and practical innovation by developing reliable projects, embedded solutions, and custom hardware designs.</p>
+          </article>
+          <article class="card card--accent card--gold reveal">
+            <span class="card__kicker">Our Belief</span>
+            <p>We believe in transforming ideas into real-world engineering solutions through continuous learning, creativity, and technology.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CORE DOMAINS ============ -->
+    <section class="section" id="domains" aria-labelledby="domains-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Our Expertise</p>
+          <h2 id="domains-title">Where Hardware Meets Intelligence</h2>
+          <p class="sub">Four disciplines. One integrated engineering practice, from silicon to signal to system.</p>
+        </header>
+
+        <div class="grid grid--4">
+          <article class="domain reveal">
+            <svg class="domain__art" viewBox="0 0 160 90" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="#00D4FF" stroke-width="1.6" stroke-linecap="round">
+                <rect x="55" y="15" width="50" height="50" rx="5"/><rect x="67" y="27" width="26" height="26" rx="3" stroke="#168BFF"/>
+                <path d="M65 15v-8M80 15v-8M95 15v-8M65 65v8M80 65v8M95 65v8M55 28h-8M55 40h-8M55 52h-8M105 28h8M105 40h8M105 52h8"/>
+              </g>
+              <circle cx="73" cy="33" r="2.5" fill="#FFD447"/>
+            </svg>
+            <h3>VLSI Design</h3>
+            <p>Explore digital design concepts and hardware logic development through practical VLSI design methodologies.</p>
+            <ul class="chips"><li>Digital Design</li><li>RTL Concepts</li><li>Verilog</li><li>VHDL</li><li>FPGA Fundamentals</li></ul>
+          </article>
+
+          <article class="domain reveal">
+            <svg class="domain__art" viewBox="0 0 160 90" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="#00D4FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="30" y="18" width="100" height="54" rx="6"/>
+                <rect x="62" y="30" width="30" height="30" rx="3" stroke="#168BFF"/>
+                <path d="M42 30h12M42 42h12M42 54h12M100 36h20M100 48h20M44 18v-6M60 18v-6M76 18v-6"/>
+                <circle cx="116" cy="60" r="4"/>
+              </g>
+              <circle cx="46" cy="64" r="2.5" fill="#FFD447"/>
+            </svg>
+            <h3>Embedded Systems</h3>
+            <p>Develop practical embedded solutions by combining microcontrollers, firmware, and hardware interfacing.</p>
+            <ul class="chips"><li>Embedded C</li><li>Firmware Development</li><li>Microcontroller Programming</li><li>Hardware Interfacing</li><li>Real-Time Systems</li></ul>
+          </article>
+
+          <article class="domain reveal">
+            <svg class="domain__art" viewBox="0 0 160 90" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="#00D4FF" stroke-width="1.6" stroke-linecap="round">
+                <circle cx="80" cy="45" r="11" stroke="#168BFF"/>
+                <circle cx="34" cy="20" r="7"/><circle cx="126" cy="20" r="7"/><circle cx="34" cy="70" r="7"/><circle cx="126" cy="70" r="7"/>
+                <path d="M40 25l30 15M120 25L90 40M40 65l30-15M120 65L90 50"/>
+                <path d="M72 38a12 12 0 0 1 16 0" stroke="#FFD447"/>
+              </g>
+              <circle cx="80" cy="45" r="3" fill="#FFD447"/>
+            </svg>
+            <h3>Internet of Things (IoT)</h3>
+            <p>Connect physical devices, sensors, and software to create intelligent, connected applications.</p>
+            <ul class="chips"><li>Smart Devices</li><li>Wireless Communication</li><li>Cloud Connectivity</li><li>Sensor Networks</li><li>Remote Monitoring</li></ul>
+          </article>
+
+          <article class="domain reveal">
+            <svg class="domain__art" viewBox="0 0 160 90" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="#00D4FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="28" y="10" width="104" height="70" rx="6"/>
+                <path d="M44 28h30l12 14h30M44 54h24l10-12M90 66h24V42"/>
+              </g>
+              <g fill="#080D15" stroke="#168BFF" stroke-width="1.6"><circle cx="44" cy="28" r="3.5"/><circle cx="44" cy="54" r="3.5"/><circle cx="116" cy="42" r="3.5"/></g>
+              <circle cx="90" cy="66" r="3.5" fill="#080D15" stroke="#FFD447" stroke-width="1.6"/>
+            </svg>
+            <h3>PCB Design</h3>
+            <p>Transform electronic circuit concepts into organized, functional printed circuit board layouts.</p>
+            <ul class="chips"><li>Circuit Design</li><li>Schematic Design</li><li>PCB Layout</li><li>Component Selection</li><li>Prototype Development</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section--alt" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">What We Do</p>
+          <h2 id="services-title">Built to Move Projects Forward</h2>
+          <p class="sub">From concept to prototype, reliable engineering support at every step.</p>
+        </header>
+
+        <div class="grid grid--services">
+          <article class="service reveal">
+            <span class="service__icon"><svg class="icon" aria-hidden="true"><use href="#i-board"/></svg></span>
+            <h3>Mini Projects</h3>
+            <p>Focused academic-grade engineering builds designed to help students understand concepts through practical implementation.</p>
+            <ul class="ticks"><li>Project implementation</li><li>Source code</li><li>Technical documentation</li><li>Circuit diagrams where applicable</li></ul>
+            <a class="link-arrow" href="#contact" data-topic="Mini Projects">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service reveal">
+            <span class="service__icon"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg></span>
+            <h3>Major Projects</h3>
+            <p>End-to-end engineering project development for academic capstones, advanced learning, and research-oriented applications.</p>
+            <ul class="ticks"><li>Project planning</li><li>Hardware and software integration</li><li>Implementation support</li><li>Documentation</li></ul>
+            <a class="link-arrow" href="#contact" data-topic="Major Projects">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service reveal">
+            <span class="service__icon"><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></span>
+            <h3>Custom Project Development</h3>
+            <p>Tailored hardware and firmware solutions developed around specific project requirements and technical objectives.</p>
+            <ul class="ticks"><li>Requirement analysis</li><li>Hardware selection</li><li>Firmware development</li><li>Custom implementation</li></ul>
+            <a class="link-arrow" href="#contact" data-topic="Custom Project Development">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service reveal">
+            <span class="service__icon"><svg class="icon" aria-hidden="true"><use href="#i-pcb"/></svg></span>
+            <h3>PCB Design Services</h3>
+            <p>Professional PCB design support, from schematic capture to organized layouts and prototype-ready manufacturing files.</p>
+            <ul class="ticks"><li>Schematic capture</li><li>PCB layout</li><li>Component placement</li><li>Design review</li><li>Manufacturing file preparation</li></ul>
+            <a class="link-arrow" href="#contact" data-topic="PCB Design Services">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service reveal">
+            <span class="service__icon"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg></span>
+            <h3>Technical Guidance &amp; Support</h3>
+            <p>Practical technical assistance to help engineers understand concepts, troubleshoot problems, and improve project implementation.</p>
+            <ul class="ticks"><li>Technical mentorship</li><li>Debugging assistance</li><li>Design review</li><li>Project guidance</li></ul>
+            <a class="link-arrow" href="#contact" data-topic="Technical Guidance &amp; Support">Learn More <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECT CATEGORIES ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Our Projects</p>
+          <h2 id="projects-title">Industry-Oriented Engineering Solutions</h2>
+          <p class="sub">Explore engineering project categories designed around practical learning, implementation, and technical problem-solving.</p>
+        </header>
+
+        <div class="grid grid--projects">
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-chip"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>VLSI Projects</h3>
+            <p>Digital design, RTL concepts, and FPGA-oriented learning projects.</p>
+            <a class="link-arrow" href="#contact" data-topic="VLSI Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-board"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>Embedded Systems Projects</h3>
+            <p>Microcontroller-based solutions integrating firmware and electronic hardware.</p>
+            <a class="link-arrow" href="#contact" data-topic="Embedded Systems Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-network"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>IoT Projects</h3>
+            <p>Connected applications using sensors, wireless communication, and monitoring systems.</p>
+            <a class="link-arrow" href="#contact" data-topic="IoT Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-infinity"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>Arduino Projects</h3>
+            <p>Practical electronics and automation projects built around Arduino platforms.</p>
+            <a class="link-arrow" href="#contact" data-topic="Arduino Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>ESP32 Projects</h3>
+            <p>Connected embedded applications using Wi-Fi, Bluetooth, and sensor integration.</p>
+            <a class="link-arrow" href="#contact" data-topic="ESP32 Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>STM32 Projects</h3>
+            <p>Microcontroller development focused on embedded control and firmware applications.</p>
+            <a class="link-arrow" href="#contact" data-topic="STM32 Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="project reveal">
+            <div class="project__top"><span class="project__icon"><svg class="icon" aria-hidden="true"><use href="#i-raspi"/></svg></span><span class="tag">Academic + Industrial</span></div>
+            <h3>Raspberry Pi Projects</h3>
+            <p>Computing, automation, monitoring, and hardware integration projects.</p>
+            <a class="link-arrow" href="#contact" data-topic="Raspberry Pi Projects">Discuss a Project <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TECHNOLOGIES ============ -->
+    <section class="section section--alt" id="technologies" aria-labelledby="tech-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Our Tech Stack</p>
+          <h2 id="tech-title">Tools and Technologies We Work With</h2>
+          <p class="sub">Working across hardware platforms, programming languages, design tools, and embedded development environments.</p>
+        </header>
+
+        <div class="tech-groups">
+          <div class="tech-group reveal">
+            <h3 class="tech-group__title">Hardware Platforms</h3>
+            <ul class="tech-grid">
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-infinity"/></svg><span>Arduino</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg><span>ESP32</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg><span>ESP8266</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg><span>STM32</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-raspi"/></svg><span>Raspberry Pi</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-chip"/></svg><span>PIC Microcontroller</span></li>
+            </ul>
+          </div>
+          <div class="tech-group reveal">
+            <h3 class="tech-group__title">Programming &amp; HDL</h3>
+            <ul class="tech-grid">
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg><span>Embedded C</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-braces"/></svg><span>C</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-terminal"/></svg><span>Python</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-wave"/></svg><span>Verilog</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-gate"/></svg><span>VHDL</span></li>
+            </ul>
+          </div>
+          <div class="tech-group reveal">
+            <h3 class="tech-group__title">Engineering &amp; Development Tools</h3>
+            <ul class="tech-grid">
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-pcb"/></svg><span>KiCad</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-scope"/></svg><span>Proteus</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-branch"/></svg><span>Git</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-window"/></svg><span>VS Code</span></li>
+              <li class="tech"><svg class="icon" aria-hidden="true"><use href="#i-plug"/></svg><span>PlatformIO</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE ============ -->
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">The MB Utronics Advantage</p>
+          <h2 id="why-title">Why Teams Choose MB Utronics</h2>
+          <p class="sub">Everything you need to learn, build, ship, and prepare for your technical evaluation.</p>
+        </header>
+
+        <div class="why">
+          <div class="why__grid">
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-factory"/></svg></span><h3>Industry-Oriented Projects</h3><p>Project categories shaped around real engineering practice, not just textbook exercises.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-doc"/></svg></span><h3>Complete Documentation</h3><p>Clear technical documentation that explains what was built and how it works.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></span><h3>Source Code</h3><p>Readable, organized source code you can study, run, and build upon.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-circuit"/></svg></span><h3>Circuit Diagram</h3><p>Circuit diagrams that show connections clearly, so hardware is easier to reproduce.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-blocks"/></svg></span><h3>Block Diagram</h3><p>System-level block diagrams that make the overall architecture easy to explain.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-board"/></svg></span><h3>Hardware Guidance</h3><p>Help with component selection, wiring, and getting the hardware working.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-headset"/></svg></span><h3>Technical Support</h3><p>Support for debugging and questions as you work through your project.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span><h3>Professional Quality</h3><p>Careful engineering practice applied to design, implementation, and presentation.</p></article>
+            <article class="feature reveal"><span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg></span><h3>Practical Learning Approach</h3><p>Learn by building, so you understand the concepts well enough to explain them.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--alt contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Let's Connect</p>
+          <h2 id="contact-title">Let's Build Something Remarkable</h2>
+          <p class="lead">Have a project idea, an academic requirement, or a custom hardware brief? We'd love to hear from you.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+              <div>
+                <span class="contact__label">Phone</span>
+                <a href="tel:+917671922526">+91 76719 22526</a>
+                <a href="tel:+917981490794">+91 79814 90794</a>
+                <a href="tel:+919121713384">+91 91217 13384</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
+              <div>
+                <span class="contact__label">Email</span>
+                <a href="mailto:mbutronics3@gmail.com">mbutronics3@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+              <div>
+                <span class="contact__label">Response time</span>
+                <span>We typically respond within a day.</span>
+              </div>
+            </li>
+          </ul>
+
+          <p class="contact__audience"><span class="contact__label">Working with</span> Students · Researchers · Startups · Industries</p>
+        </div>
+
+        <div class="contact__form-wrap reveal">
+          <form id="contact-form" class="form" novalidate data-endpoint="">
+            <input type="hidden" name="topic" id="topic-input" value="">
+            <p class="topic-note" id="topic-note" hidden>
+              <span>Enquiry about: <strong id="topic-name"></strong></span>
+              <button type="button" id="topic-clear" class="topic-note__clear" aria-label="Clear selected topic"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+            </p>
+
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+              <p class="field__error" id="name-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+              <p class="field__error" id="email-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+              <p class="field__error" id="message-error" role="alert"></p>
+            </div>
+
+            <!-- honeypot for basic spam protection -->
+            <div class="hp" aria-hidden="true"><label>Leave empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+
+            <button class="btn btn--primary btn--block" type="submit" id="submit-btn">
+              <span class="btn__label">Send Message</span>
+              <span class="btn__spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form__note">By sending, you agree to be contacted about your enquiry.</p>
+            <p class="form__status" id="form-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="#home" aria-label="MB Utronics, back to top">
+          <img class="brand__logo" src="assets/images/mblogo.jpeg" alt="MB Utronics logo" width="44" height="44" loading="lazy">
+          <span class="brand__text"><span class="brand__name">MB Utronics</span><span class="brand__tag">Engineering Solutions</span></span>
+        </a>
+        <p>MB Utronics is committed to delivering innovative engineering solutions in VLSI, Embedded Systems, IoT, and PCB Design.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Quick links">
+        <h2 class="footer__title">Quick Links</h2>
+        <ul>
+          <li><a href="#domains">VLSI Design</a></li>
+          <li><a href="#domains">Embedded Systems</a></li>
+          <li><a href="#domains">Internet of Things</a></li>
+          <li><a href="#domains">PCB Design</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h2 class="footer__title">Contact</h2>
+        <ul>
+          <li><a href="mailto:mbutronics3@gmail.com">mbutronics3@gmail.com</a></li>
+          <li><a href="tel:+917671922526">+91 76719 22526</a></li>
+          <li><a href="tel:+917981490794">+91 79814 90794</a></li>
+          <li><a href="tel:+919121713384">+91 91217 13384</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p class="footer__thanks">Thank you for visiting MB Utronics. We look forward to building innovative engineering solutions with you.</p>
+      <div class="footer__legal">
+        <p>&copy; <span id="year">2026</span> MB Utronics. All rights reserved.</p>
+        <a class="to-top" href="#top" id="to-top-footer">Back to top <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="back-top" type="button" aria-label="Back to top" hidden>
+    <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>
+  </button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
